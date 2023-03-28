@@ -1,0 +1,58 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 90vh;
+    background-color: #cfe1fa;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.contact-button {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.github-logo {
+    border-radius: 4px;
+    width: 100px;
+    height: 100px;
+}
+
+.gmail-logo {
+    border-radius: 4px;
+    width: 134px;
+    height: 100px;
+}
+
+.linkedin-logo {
+    border-radius: 4px;
+    width: 118px;
+    height: 100px;
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    margin: 10px 10px;
+}
+
+p {
+    margin-top: 10px;
+}

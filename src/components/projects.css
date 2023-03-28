@@ -1,0 +1,66 @@
+h5 {
+    color: black;
+    margin-bottom: 1px;
+}
+
+p {
+    color: black;
+    margin-bottom: 1px;
+    opacity: 0.8;
+}
+
+small {
+    padding-left: 10px;
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.projects {
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #cfe1fa;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.project:hover {
+    background-color: white;
+}
+
+.project-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
